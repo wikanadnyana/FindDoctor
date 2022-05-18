@@ -11,16 +11,16 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="400dp">
+
         <com.airbnb.lottie.LottieAnimationView
-            android:layout_centerInParent="true"
             android:id="@+id/animasi"
             android:layout_width="300dp"
             android:layout_height="300dp"
+            android:layout_centerInParent="true"
+            android:elevation="5dp"
             app:lottie_autoPlay="true"
             app:lottie_rawRes="@raw/doctor"
-            android:elevation="5dp"
-            app:lottie_repeatCount="30"
-            />
+            app:lottie_repeatCount="30" />
 
     </RelativeLayout>
 
@@ -67,11 +67,11 @@
             android:id="@+id/buttonmain"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/base_button"
             android:layout_centerInParent="true"
-            android:text="Get Started"
+            android:background="@drawable/base_button"
             android:fontFamily="@font/poppins_medium"
-            android:textColor="@color/white"/>
+            android:text="Get Started"
+            android:textColor="@color/white" />
 
 
     </RelativeLayout>

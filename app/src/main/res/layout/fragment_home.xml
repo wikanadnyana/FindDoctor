@@ -332,113 +332,135 @@
             android:fontFamily="@font/poppins_bold"
             android:textSize="18dp"/>
     </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:layout_marginTop="10dp"
-        android:orientation="vertical"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:background="@drawable/bg_white2"
-        android:elevation="4dp">
-
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <ImageView
-                android:layout_width="60dp"
-                android:layout_height="70dp"
-                android:src="@drawable/doctor2"
-                android:layout_marginLeft="30dp"
-                android:layout_marginTop="10dp"
-                android:onClick="ShowDoctor"/>
-            <LinearLayout
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:orientation="vertical">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Dr. Andi"
-                    android:textColor="@color/black"
-                    android:layout_marginLeft="10dp"
-                    android:textSize="20dp"
-                    android:fontFamily="@font/poppins_medium"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="General Doctor"
-                    android:layout_marginLeft="10dp"
-                    android:fontFamily="@font/poppins_light"
-                    android:textColor="@color/greylight"
-                    android:textSize="15dp"/>
-            </LinearLayout>
-            <ImageView
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:layout_marginTop="30dp"
-                android:layout_marginLeft="70dp"
-                android:src="@drawable/ic_arrow_right"
-                android:onClick="ShowDoctor"/>
-
-
-        </LinearLayout>
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_marginTop="10dp"
-            android:background="@color/blue3"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"/>
-
-        <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:orientation="horizontal">
             <LinearLayout
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
-                android:layout_marginTop="15dp">
-                <ImageView
-                    android:layout_width="24dp"
-                    android:layout_height="24dp"
-                    android:src="@drawable/ic_calendarnew"/>
-                <TextView
-                    android:layout_width="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/bg_white2"
+                android:elevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Sunday, 12 June"
-                    android:textSize="11dp"
-                    android:fontFamily="@font/poppins_light"
-                    android:textColor="@color/greylight"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginTop="3dp"/>
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/doctor2"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:onClick="ShowDoctor"/>
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Dr. Andi"
+                            android:textColor="@color/black"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="20dp"
+                            android:fontFamily="@font/poppins_medium"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="General Doctor"
+                            android:layout_marginLeft="10dp"
+                            android:fontFamily="@font/poppins_light"
+                            android:textColor="@color/greylight"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:src="@drawable/ic_locationnew"
+                        android:onClick="ShowDoctor"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:text="1,2 Km"
+                        android:fontFamily="@font/poppins_light"
+                        android:textColor="@color/greylight"
+                        android:layout_marginLeft="5dp"/>
+
+
+
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#F5F5F5"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp">
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/ic_clockkk"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="4,8 (120 Reviews)"
+                            android:textSize="11dp"
+                            android:fontFamily="@font/poppins_light"
+                            android:textColor="@color/yellow"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="3dp"/>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp">
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/ic_clockb"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Open at 17.00"
+                            android:textSize="11dp"
+                            android:fontFamily="@font/poppins_light"
+                            android:textColor="@color/blue4"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="3dp"/>
+                    </LinearLayout>
+                </LinearLayout>
             </LinearLayout>
 
 
-            <LinearLayout
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
-                android:layout_marginTop="15dp">
-                <ImageView
-                    android:layout_width="24dp"
-                    android:layout_height="24dp"
-                    android:src="@drawable/ic_clocknew"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="11:00 - 12:00 AM"
-                    android:textSize="11dp"
-                    android:fontFamily="@font/poppins_light"
-                    android:textColor="@color/greylight"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginTop="3dp"/>
-            </LinearLayout>
         </LinearLayout>
-    </LinearLayout>
+
+    </HorizontalScrollView>
 
 
 

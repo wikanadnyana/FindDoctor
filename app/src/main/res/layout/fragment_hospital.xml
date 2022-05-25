@@ -157,7 +157,8 @@
                     android:textAllCaps="false"
                     android:textSize="15dp"
                     android:fontFamily="@font/poppins_medium"
-                    android:textColor="@color/blue4"/>
+                    android:textColor="@color/blue4"
+                    android:onClick="ShowHospitala"/>
 
 
             </LinearLayout>
@@ -270,7 +271,8 @@
                     android:textAllCaps="false"
                     android:textSize="15dp"
                     android:fontFamily="@font/poppins_medium"
-                    android:textColor="@color/blue4"/>
+                    android:textColor="@color/blue4"
+                    android:onClick="ShowHospitalb"/>
 
 
             </LinearLayout>
@@ -282,7 +284,8 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:background="@drawable/bg_white2"
-                android:elevation="4dp">
+                android:elevation="4dp"
+                android:layout_marginBottom="30dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -383,7 +386,8 @@
                     android:textAllCaps="false"
                     android:textSize="15dp"
                     android:fontFamily="@font/poppins_medium"
-                    android:textColor="@color/blue4"/>
+                    android:textColor="@color/blue4"
+                    android:onClick="ShowHospitalc"/>
 
 
             </LinearLayout>

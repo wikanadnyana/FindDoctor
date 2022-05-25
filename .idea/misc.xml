@@ -15,6 +15,7 @@
         <entry key="..\:/Users/wikan/AndroidStudioProjects/FindDoctor/app/src/main/res/drawable/custom_person_icon.xml" value="0.1805" />
         <entry key="..\:/Users/wikan/AndroidStudioProjects/FindDoctor/app/src/main/res/drawable/custom_search.xml" value="0.1805" />
         <entry key="..\:/Users/wikan/AndroidStudioProjects/FindDoctor/app/src/main/res/drawable/form.xml" value="0.1805" />
+        <entry key="..\:/Users/wikan/AndroidStudioProjects/FindDoctor/app/src/main/res/drawable/form2.xml" value="0.131" />
         <entry key="..\:/Users/wikan/AndroidStudioProjects/FindDoctor/app/src/main/res/drawable/ic_about.xml" value="0.1805" />
         <entry key="..\:/Users/wikan/AndroidStudioProjects/FindDoctor/app/src/main/res/drawable/ic_add_img.xml" value="0.1805" />
         <entry key="..\:/Users/wikan/AndroidStudioProjects/FindDoctor/app/src/main/res/drawable/ic_arrow_right.xml" value="0.1805" />
@@ -29,12 +30,15 @@
         <entry key="..\:/Users/wikan/AndroidStudioProjects/FindDoctor/app/src/main/res/drawable/ic_side_bg.xml" value="0.1805" />
         <entry key="..\:/Users/wikan/AndroidStudioProjects/FindDoctor/app/src/main/res/layout/activity_dashboard.xml" value="0.22" />
         <entry key="..\:/Users/wikan/AndroidStudioProjects/FindDoctor/app/src/main/res/layout/activity_doctor.xml" value="0.22" />
+        <entry key="..\:/Users/wikan/AndroidStudioProjects/FindDoctor/app/src/main/res/layout/activity_doctora.xml" value="0.1721014492753623" />
+        <entry key="..\:/Users/wikan/AndroidStudioProjects/FindDoctor/app/src/main/res/layout/activity_doctorb.xml" value="0.165625" />
+        <entry key="..\:/Users/wikan/AndroidStudioProjects/FindDoctor/app/src/main/res/layout/activity_doctorc.xml" value="0.165625" />
         <entry key="..\:/Users/wikan/AndroidStudioProjects/FindDoctor/app/src/main/res/layout/activity_hospital.xml" value="0.1453804347826087" />
         <entry key="..\:/Users/wikan/AndroidStudioProjects/FindDoctor/app/src/main/res/layout/activity_login.xml" value="0.14666666666666667" />
         <entry key="..\:/Users/wikan/AndroidStudioProjects/FindDoctor/app/src/main/res/layout/activity_main.xml" value="0.1453804347826087" />
         <entry key="..\:/Users/wikan/AndroidStudioProjects/FindDoctor/app/src/main/res/layout/activity_register.xml" value="0.1453804347826087" />
         <entry key="..\:/Users/wikan/AndroidStudioProjects/FindDoctor/app/src/main/res/layout/fragment_doctor.xml" value="0.1453804347826087" />
-        <entry key="..\:/Users/wikan/AndroidStudioProjects/FindDoctor/app/src/main/res/layout/fragment_home.xml" value="0.1453804347826087" />
+        <entry key="..\:/Users/wikan/AndroidStudioProjects/FindDoctor/app/src/main/res/layout/fragment_home.xml" value="0.22" />
         <entry key="..\:/Users/wikan/AndroidStudioProjects/FindDoctor/app/src/main/res/layout/fragment_hospital.xml" value="0.1453804347826087" />
         <entry key="..\:/Users/wikan/AndroidStudioProjects/FindDoctor/app/src/main/res/menu/bottom_navigation.xml" value="0.1796875" />
       </map>

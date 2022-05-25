@@ -11,6 +11,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -19,13 +20,17 @@ import com.google.android.material.navigation.NavigationBarView;
 
 public class DashboardActivity extends AppCompatActivity {
     TextView nameText;
+    Button doctorSatu;
     BottomNavigationView bottomNavigation;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
         nameText = findViewById(R.id.hitext);
+        doctorSatu = findViewById(R.id.doctora);
 
         bottomNavigation =findViewById(R.id.bottom_navigation);
 
@@ -53,6 +58,7 @@ public class DashboardActivity extends AppCompatActivity {
             }
         });
 
+
 //        Intent dashboard = getIntent();
 //        String name = dashboard.getStringExtra(NAME);
 //        nameText.setText("Hi" + name + "!");
@@ -60,6 +66,44 @@ public class DashboardActivity extends AppCompatActivity {
 
     public void ShowDoctor(View view) {
         Intent i = new Intent(getApplicationContext(), DoctorActivity.class);
+        startActivity(i);
+    }
+
+    public void ShowDoctora(View view) {
+        Intent i = new Intent(getApplicationContext(), DoctoraActivity.class);
+        startActivity(i);
+    }
+    public void ShowDoctorb(View view) {
+        Intent i = new Intent(getApplicationContext(), DoctorbActivity.class);
+        startActivity(i);
+    }
+    public void ShowDoctorc(View view) {
+        Intent i = new Intent(getApplicationContext(), DoctorcActivity.class);
+        startActivity(i);
+    }
+    public void ShowHospitala(View view) {
+        String source = "Kampus Bukit Jimbaran";
+        String destination = "Rumah Sakit Sanglah";
+
+        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.co.in/maps/dir/"+source+
+                "/" + destination));
+        startActivity(i);
+    }
+    public void ShowHospitalb(View view) {
+        String source = "Kampus Bukit Jimbaran";
+        String destination = "Rumah Sakit Surya Husada";
+
+        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.co.in/maps/dir/"+source+
+                "/" + destination));
+        startActivity(i);
+    }
+    public void ShowHospitalc(View view) {
+        String source = "Kampus Bukit Jimbaran";
+        String destination = "Rumah Sakit Prima Medika";
+
+
+        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.co.in/maps/dir/"+source+
+                "/" + destination));
         startActivity(i);
     }
 

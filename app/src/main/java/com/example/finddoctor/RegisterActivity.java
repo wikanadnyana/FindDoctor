@@ -21,13 +21,14 @@ public class RegisterActivity extends AppCompatActivity {
 
         eName = findViewById(R.id.username);
         eRegister = findViewById(R.id.btnregister);
-        String userName = eName.getText().toString();
 
         eRegister.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View view) {
+                String userName = eName.getText().toString();
                 Intent dashboard = new Intent(RegisterActivity.this, DashboardActivity.class);
-                dashboard.putExtra(NAME,userName);
+                dashboard.putExtra("dataUsername",userName);
                 startActivity(dashboard);
             }
         });

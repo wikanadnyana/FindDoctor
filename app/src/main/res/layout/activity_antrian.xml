@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".AntrianActivity"
+    android:orientation="vertical"
+    android:paddingBottom="5dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/bg_blue">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="A012"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:id="@+id/nomor"/>
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginRight="30dp"
+            android:background="@color/blue3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Dokter A"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:id="@+id/dokter"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Kamis"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:id="@+id/waktu"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

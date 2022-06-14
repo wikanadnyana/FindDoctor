@@ -67,8 +67,10 @@ public class LoginActivity extends AppCompatActivity {
                     /* If valid */
                     else {
 
-                        /* Allow the user in to your app by going into the next activity */
-                        startActivity(new Intent(LoginActivity.this, DashboardActivity.class));
+                        String userName = eName.getText().toString();
+                        Intent dashboard = new Intent(LoginActivity.this, DashboardActivity.class);
+                        dashboard.putExtra("dataUsername",userName);
+                        startActivity(dashboard);
                         eName.getText().clear();
                         ePassword.getText().clear();
                     }

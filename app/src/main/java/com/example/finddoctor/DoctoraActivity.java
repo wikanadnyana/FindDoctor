@@ -12,7 +12,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 public class DoctoraActivity extends AppCompatActivity {
-    Button sendbtn;
+    Button sendbtn, antrianbtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +20,7 @@ public class DoctoraActivity extends AppCompatActivity {
         setContentView(R.layout.activity_doctora);
 
         sendbtn = findViewById(R.id.doctora);
+        antrianbtn = findViewById(R.id.antrian);
         sendbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -32,6 +33,15 @@ public class DoctoraActivity extends AppCompatActivity {
                 startActivity(i);
 
 
+            }
+        });
+        antrianbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String doctora = "Dr. Nugraha";
+                Intent intent = new Intent(DoctoraActivity.this, BuatAntrianActivity.class);
+                intent.putExtra("dokterINTENT", doctora);
+                startActivity(intent);
             }
         });
     }

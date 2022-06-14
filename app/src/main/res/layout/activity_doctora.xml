@@ -14,8 +14,8 @@
         <com.flaviofaria.kenburnsview.KenBurnsView
             android:layout_width="match_parent"
             android:layout_height="130dp"
-            android:scaleType="fitXY"
-            android:background="@drawable/backgrounddoctor"/>
+            android:background="@color/blue4"
+            android:scaleType="fitXY" />
 
 
         <LinearLayout
@@ -59,6 +59,7 @@
                         android:layout_marginLeft="10dp"
                         android:fontFamily="@font/poppins_light"
                         android:textColor="@color/greylight"/>
+
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
@@ -71,81 +72,109 @@
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:background="@drawable/form2">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
+
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="30dp"
-                    android:src="@drawable/ic_clocknew"
+                    android:layout_marginLeft="15dp"
                     android:layout_marginTop="10dp"
-                    android:layout_marginLeft="15dp"/>
+                    android:src="@drawable/ic_clocknew" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Sunday, 12 June"
                     android:layout_marginTop="15dp"
                     android:fontFamily="@font/poppins_medium"
-                    />
+                    android:text="Sunday, 12 June" />
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
+
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="30dp"
-                    android:src="@drawable/ic_calendarnew"
+                    android:layout_marginLeft="15dp"
                     android:layout_marginTop="10dp"
-                    android:layout_marginLeft="15dp"/>
+                    android:src="@drawable/ic_calendarnew" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="11:00 - 12:00 AM"
                     android:layout_marginTop="15dp"
                     android:fontFamily="@font/poppins_medium"
-                    />
+                    android:text="11:00 - 12:00 AM" />
             </LinearLayout>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
                 android:layout_marginTop="15dp"
-                android:text="Deskripsi :"
-                android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
-                android:fontFamily="@font/poppins_bold"/>
+                android:fontFamily="@font/poppins_bold"
+                android:text="Deskripsi :" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="Dr. Nugraha merupakan salah satu dokter umum yang melaksanakan kerja di klinik pribadi"
                 android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginRight="30dp"
-                android:fontFamily="@font/poppins_light"/>
+                android:fontFamily="@font/poppins_light"
+                android:text="Dr. Nugraha merupakan salah satu dokter umum yang melaksanakan kerja di klinik pribadi" />
 
         </LinearLayout>
 
 
     </RelativeLayout>
-    <Button
-        android:id="@+id/doctora"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"
-        android:layout_marginBottom="10dp"
-        android:background="@drawable/base_button2"
-        android:text="Contact"
-        android:textAllCaps="false"
-        android:textSize="15dp"
-        android:fontFamily="@font/poppins_medium"
-        android:textColor="@color/blue4"/>
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/doctora"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/base_button3"
+            android:text="Contact"
+            android:textAllCaps="false"
+            android:textSize="15dp"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/blue4"/>
+        <Button
+            android:id="@+id/antrian"
+            android:layout_marginLeft="18dp"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/base_button3"
+            android:text="Buat Antrian"
+            android:textAllCaps="false"
+            android:textSize="15dp"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/blue4"/>
+
+    </LinearLayout>
+
 
 </LinearLayout>

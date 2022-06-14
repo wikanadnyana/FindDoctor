@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/bottomSheetPilihan"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg_white"
+        android:elevation="6dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="Quiz Result"
+            android:textSize="18dp"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/black"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colordivider"
+            android:layout_marginBottom="15dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animasiresult"
+                app:lottie_autoPlay="true"
+                app:lottie_rawRes="@raw/result"
+                app:lottie_repeatCount="100"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_centerInParent="true"
+                android:elevation="5dp" />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medicine :"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/nilaiquiz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5 / 5"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/black"
+            android:textSize="36dp"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/hasilnya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Passed"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="20dp"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingBottom="40dp">
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_stroke"
+                android:text="Back"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:textColor="@color/blue4"
+                android:fontFamily="@font/poppins_bold"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/quizButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_stroke"
+                android:text="Restart"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:textColor="@color/blue4"
+                android:fontFamily="@font/poppins_bold"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

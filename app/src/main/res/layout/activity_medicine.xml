@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MedicineActivity"
+    android:orientation="vertical"
+    android:background="#00D4F1">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/formquiz"
+        android:layout_marginTop="60dp"
+        android:elevation="6dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ini soalnya"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="15dp"
+                android:layout_marginRight="10dp"/>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilihan"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/ans_A"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonquizputih"
+            android:layout_marginTop="20dp"
+            android:text="Jawaban 1"
+            android:textAllCaps="false"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="12dp"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/ans_B"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonquizputih"
+            android:layout_marginTop="20dp"
+            android:text="Jawaban 1"
+            android:textAllCaps="false"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="12dp"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/ans_C"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonquizputih"
+            android:layout_marginTop="20dp"
+            android:text="Jawaban 1"
+            android:textAllCaps="false"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="12dp"/>
+
+        <Button
+            android:id="@+id/submit_btn"
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/base_button"
+            android:text="Next"
+            android:textAllCaps="false"
+            android:fontFamily="@font/poppins_bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>

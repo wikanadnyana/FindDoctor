@@ -179,13 +179,13 @@
                     android:background="@drawable/circle_feature"
                     android:elevation="2dp"
                     android:layout_marginLeft="2.5dp"
-                    android:layout_marginTop="2.5dp">
+                    android:layout_marginTop="2.5dp"
+                    android:onClick="ShowCovid">
 
                     <ImageView
                         android:layout_width="30dp"
                         android:layout_height="match_parent"
                         android:layout_centerInParent="true"
-                        android:onClick="ShowCovid"
                         android:src="@drawable/ic_sun" />
 
                 </RelativeLayout>
@@ -216,13 +216,13 @@
                     android:background="@drawable/circle_feature"
                     android:elevation="2dp"
                     android:layout_marginLeft="2.5dp"
-                    android:layout_marginTop="2.5dp">
+                    android:layout_marginTop="2.5dp"
+                    android:onClick="ShowDoctor">
 
                     <ImageView
                         android:layout_width="30dp"
                         android:layout_height="match_parent"
                         android:layout_centerInParent="true"
-                        android:onClick="ShowDoctor"
                         android:src="@drawable/ic_profile_add" />
 
                 </RelativeLayout>
@@ -253,13 +253,13 @@
                     android:background="@drawable/circle_feature"
                     android:elevation="2dp"
                     android:layout_marginLeft="2.5dp"
-                    android:layout_marginTop="2.5dp">
+                    android:layout_marginTop="2.5dp"
+                    android:onClick="ShowMedicine">
 
                     <ImageView
                         android:layout_width="30dp"
                         android:layout_height="match_parent"
                         android:layout_centerInParent="true"
-                        android:onClick="ShowMedicine"
                         android:src="@drawable/ic_link" />
 
                 </RelativeLayout>
@@ -290,13 +290,13 @@
                     android:background="@drawable/circle_feature"
                     android:elevation="2dp"
                     android:layout_marginLeft="2.5dp"
-                    android:layout_marginTop="2.5dp">
+                    android:layout_marginTop="2.5dp"
+                    android:onClick="ShowHospital">
 
                     <ImageView
                         android:layout_width="30dp"
                         android:layout_height="match_parent"
                         android:layout_centerInParent="true"
-                        android:onClick="ShowHospital"
                         android:src="@drawable/ic_hospital" />
 
                 </RelativeLayout>
@@ -395,6 +395,238 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="30dp"
                         android:text="1,2 Km"
+                        android:fontFamily="@font/poppins_light"
+                        android:textColor="@color/greylight"
+                        android:layout_marginLeft="5dp"/>
+
+
+
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#F5F5F5"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp">
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/ic_clockkk"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="4,8 (120 Reviews)"
+                            android:textSize="11dp"
+                            android:fontFamily="@font/poppins_light"
+                            android:textColor="@color/yellow"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="3dp"/>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp">
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/ic_clockb"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Open at 17.00"
+                            android:textSize="11dp"
+                            android:fontFamily="@font/poppins_light"
+                            android:textColor="@color/blue4"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="3dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/bg_white2"
+                android:elevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/profile1"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:onClick="ShowDoctor"/>
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Dr. Nugraha"
+                            android:textColor="@color/black"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="20dp"
+                            android:fontFamily="@font/poppins_medium"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="General Doctor"
+                            android:layout_marginLeft="10dp"
+                            android:fontFamily="@font/poppins_light"
+                            android:textColor="@color/greylight"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:src="@drawable/ic_locationnew"
+                        android:onClick="ShowDoctor"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:text="1,5 Km"
+                        android:fontFamily="@font/poppins_light"
+                        android:textColor="@color/greylight"
+                        android:layout_marginLeft="5dp"/>
+
+
+
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#F5F5F5"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp">
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/ic_clockkk"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="4,8 (120 Reviews)"
+                            android:textSize="11dp"
+                            android:fontFamily="@font/poppins_light"
+                            android:textColor="@color/yellow"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="3dp"/>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp">
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/ic_clockb"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Open at 17.00"
+                            android:textSize="11dp"
+                            android:fontFamily="@font/poppins_light"
+                            android:textColor="@color/blue4"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="3dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/bg_white2"
+                android:elevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/doctor3"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:onClick="ShowDoctor"/>
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Dr. Nandini"
+                            android:textColor="@color/black"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="20dp"
+                            android:fontFamily="@font/poppins_medium"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="General Doctor"
+                            android:layout_marginLeft="10dp"
+                            android:fontFamily="@font/poppins_light"
+                            android:textColor="@color/greylight"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:src="@drawable/ic_locationnew"
+                        android:onClick="ShowDoctor"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:text="1,8 Km"
                         android:fontFamily="@font/poppins_light"
                         android:textColor="@color/greylight"
                         android:layout_marginLeft="5dp"/>
